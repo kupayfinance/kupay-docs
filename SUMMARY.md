@@ -9,14 +9,12 @@
 
 ## Fundamentals
 
-* [Project](fundamentals/project.md)
-* [Members](fundamentals/members.md)
 * [Roadmap](fundamentals/roadmap.md)
 
 ## Use Cases
 
-* [For Token Projects](use-cases/for-token-projects.md)
-* [For Merchants](use-cases/for-merchants.md)
+* [Merchants](use-cases/merchants.md)
+* [Donations](use-cases/donations.md)
 
 ## Extras
 
