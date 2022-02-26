@@ -13,6 +13,7 @@
 3. We generate a webhook address for you, that you need to add to Shopify, see below
 4. Setup a custom payment method, see below
 5. Add custom code to the checkout page (optional, but recommended)
+6. Create a custom app to get updates from KuPay about the payment status
 
 ## Webhook
 
@@ -73,3 +74,23 @@ While this is not strictly required, we do recommend adding the code, to optimiz
 **It should look like this on the status/thank you page:**
 
 ![If your status/thank you page is not dark but using a light theme, please contact our support to give you instructions.](<../.gitbook/assets/Screen Shot 2021-12-29 at 22.52.14.png>)
+
+## Create a custom app (coming soon!)
+
+In the Shopify admin panel, click on **Apps** > **Develop apps**
+
+or visit https://\<your-shop>.myshopify.com/admin/apps/development
+
+Click on **Create app**
+
+**App name:** backend app
+
+**Configuration -- Admin API access scopes:** write\_order\_edits, read\_order\_edits, write\_orders, read\_orders, write\_third\_party\_fulfillment\_orders, read\_third\_party\_fulfillment\_orders, read\_reports, write\_fulfillments, read\_fulfillments -- click **Save**
+
+**Webhook version:** 2022-01
+
+Click **Install app**
+
+Visit the **API credentials** -- View the **Admin API access token** and store it in a safe place (you can only view it once)
+
+\>> This access token needs to be entered on the merchant panel
