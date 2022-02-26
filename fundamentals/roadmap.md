@@ -4,6 +4,8 @@
 
 ✅ Payment Solution with native KCC tokens
 
+✅ KCC node
+
 ✅ Shopify integration v.1
 
 ✅ KCC Token pricing API
@@ -12,9 +14,11 @@
 
 ✅ Listing as KCC project on discover KCC
 
-✅ Multi chain
+✅ Multi chain donations
 
 ✨ Shopify integration v.2
+
+✨ Binance Smart Chain node
 
 ✨ Setup more merchants
 
