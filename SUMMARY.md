@@ -13,7 +13,7 @@
 
 ## Use Cases
 
-* [Merchants](use-cases/merchants.md)
+* [Merchants](use-cases/for-merchants.md)
 * [Donations](use-cases/donations.md)
 
 ## Extras

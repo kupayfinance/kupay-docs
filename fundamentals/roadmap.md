@@ -2,32 +2,34 @@
 
 ✅ Merchandise store for KCC
 
-✅ Concept Payment Solution with native KCC tokens
+✅ Payment Solution with native KCC tokens
 
-✅ Shopify integration
+✅ Shopify integration v.1
 
 ✅ KCC Token pricing API
 
-✅ Permanent storage solution API
+✅ Onboarding top 10 native KCC tokens
 
-✨ Listing as a KCC project
+✅ Listing as KCC project on discover KCC
 
-✨ Funding with KCC grant
+✅ Multi chain
 
-🥰 Onboarding more native KCC tokens
+✨ Shopify integration v.2
 
-✨ WooCommerce plugin integration
+✨ Setup more merchants
 
-✨ Multi chain
+✨ NFT's
+
+✨ WooCommerce integration
+
+✨ Token Pre-sale
 
 🔥️ Token launch
 
 ✨ Coin market cap listing
 
-✨ Coingecko listing
+✨ Coin gecko listing
 
 ✨ Exchange listing
 
-🚀 Block chain launch
-
-🏁 Financial institution
+🏁 Partnerships with financial institution for fiat onramp/offramp solutions
