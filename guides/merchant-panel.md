@@ -15,3 +15,5 @@ The following functionality is part of the merchant panel. If you do not have ac
 * Modify the **chains** you wish to activate (leave empty to select all)
 * Your unique **webhook** which is used to set up the Shopify integration
 * Add your Shopify **access token**, to allow KuPay to update Shopify orders when payments get in
+* Get your WooCommerce **API key**
+* And more...
