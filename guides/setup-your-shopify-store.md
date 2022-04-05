@@ -1,7 +1,7 @@
 # Setup your Shopify store
 
 {% hint style="info" %}
-**Good to know:** while we only support Shopify now, we will work on plugins for WooCommerce etc. to make it easier to integrate KuPay into your webshop.
+**Good to know:** we currently support Shopify and WooCommerce. We have other platforms and a REST API and SDK on our roadmap to make it easier to integrate KuPay into your webshop or application. Contact us if you have a special request.
 {% endhint %}
 
 ## The basics
