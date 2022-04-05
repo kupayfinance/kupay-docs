@@ -20,6 +20,10 @@ Follow our handy guides to get started on the basics as quickly as possible:
 [setup-your-shopify-store.md](guides/setup-your-shopify-store.md)
 {% endcontent-ref %}
 
+{% content-ref url="guides/setup-woocommerce.md" %}
+[setup-woocommerce.md](guides/setup-woocommerce.md)
+{% endcontent-ref %}
+
 {% content-ref url="guides/merchant-panel.md" %}
 [merchant-panel.md](guides/merchant-panel.md)
 {% endcontent-ref %}
