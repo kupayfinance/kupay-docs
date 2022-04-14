@@ -17,14 +17,14 @@ Find out more about [KCC](https://www.kcc.io) and [BSC](https://academy.binance.
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="guides/setup-your-shopify-store.md" %}
-[setup-your-shopify-store.md](guides/setup-your-shopify-store.md)
+{% content-ref url="guides/making-payments-or-donations.md" %}
+[making-payments-or-donations.md](guides/making-payments-or-donations.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/setup-woocommerce.md" %}
-[setup-woocommerce.md](guides/setup-woocommerce.md)
+{% content-ref url="merchants/setup-woocommerce.md" %}
+[setup-woocommerce.md](merchants/setup-woocommerce.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/merchant-panel.md" %}
-[merchant-panel.md](guides/merchant-panel.md)
+{% content-ref url="merchants/setup-your-shopify-store.md" %}
+[setup-your-shopify-store.md](merchants/setup-your-shopify-store.md)
 {% endcontent-ref %}

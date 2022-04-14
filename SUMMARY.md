@@ -5,9 +5,12 @@
 ## Guides
 
 * [Making Payments or Donations](guides/making-payments-or-donations.md)
-* [Setup your Shopify store](guides/setup-your-shopify-store.md)
-* [Setup WooCommerce](guides/setup-woocommerce.md)
-* [Merchant panel](guides/merchant-panel.md)
+
+## Merchants
+
+* [Setup WooCommerce](merchants/setup-woocommerce.md)
+* [Setup your Shopify store](merchants/setup-your-shopify-store.md)
+* [Merchant panel](merchants/merchant-panel.md)
 
 ## Fundamentals
 
