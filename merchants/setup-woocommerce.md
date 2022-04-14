@@ -1,5 +1,13 @@
 # Setup WooCommerce
 
+#### Requirements/ limitations:
+
+1. Requires a KuPay merchant account
+2. Only works with **USD** currency at the moment. Please contact us to request another currency.
+3. Only in **English** language
+4. Tested on WordPress 5.9.3 and WooCommerce 6.3.0 and above
+5. Requires PHP 7.0 or above
+
 ## The basics
 
 1. Sign up for a new Merchant account on [https://kupay.finance/checkout](https://kupay.finance/checkout)
