@@ -1,5 +1,9 @@
 # Setup WooCommerce
 
+{% hint style="info" %}
+**Good to know:** we currently support Shopify and WooCommerce. We have other platforms and a REST API and SDK on our roadmap to make it easier to integrate KuPay into your webshop or application. Contact us if you have a special request.
+{% endhint %}
+
 #### Requirements/ limitations:
 
 1. Requires a KuPay merchant account

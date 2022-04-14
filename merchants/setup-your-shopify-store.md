@@ -4,6 +4,12 @@
 **Good to know:** we currently support Shopify and WooCommerce. We have other platforms and a REST API and SDK on our roadmap to make it easier to integrate KuPay into your webshop or application. Contact us if you have a special request.
 {% endhint %}
 
+#### Requirements/ limitations:
+
+1. Requires a KuPay merchant account
+2. Only works with **USD** currency at the moment. Please contact us to request another currency.
+3. Only in **English** language
+
 ## The basics
 
 1. Create a new Shopify shop (if you haven’t already)
