@@ -6,17 +6,18 @@
 
 #### Requirements/ limitations:
 
-1. Requires a KuPay merchant account
-2. Only works with **USD** currency at the moment. Please contact us to request another currency.
-3. Only in **English** language
-4. Tested on WordPress 5.9.3 and WooCommerce 6.3.0 and above
-5. Requires PHP 7.0 or above
+1. Requires a KuPay merchant account. Apply now at [https://kupay.finance/checkout](https://kupay.finance/checkout)
+2. Currently works with KuCoin Community Chain (**KCC**) and Binance Smart Chain (**BSC**) for our Checkout product, and many more chains for donations and payments.
+3. Only works with **USD** currency at the moment. Please contact us to request another currency.
+4. Only in **English** language
+5. Tested on WordPress 5.9.3 and WooCommerce 6.3.0 and above
+6. Requires PHP 7.0 or above
 
-## The basics
+## Step-by-step
 
 1. Sign up for a new Merchant account on [https://kupay.finance/checkout](https://kupay.finance/checkout)
 2. When you have access to the merchant panel, you will find your API key on the **Integrations** page
-3. Install the plugin in your WooCommerce website
+3. Install the plugin on your WooCommerce website
 4. Enable the payment method
 5. Enter your API key
 6. Place a test order to check that everything goes well
@@ -25,21 +26,31 @@
 
 ### 3. Install the plugin
 
-You can download the plugin as a .zip file in your merchant panel on the Integrations page.
+Install via WordPress > Admin panel > Plugins > Add New > Search for "**kupay gateway**"
 
-You can then upload that same .zip file on your website.
+![Add a new Plugin](<../.gitbook/assets/Screen Shot 2022-04-15 at 23.47.30.png>)
 
-![Upload the plugin](../.gitbook/assets/woo0.png)
+![Activate the KuPay Payment Gateway plugin](<../.gitbook/assets/Screen Shot 2022-04-15 at 23.47.44.png>)
 
 ### 4. Enable the payment method
 
-Go to WooCommerce > Settings > Payments and click the switch to enable the KuPay payment method. Then click Set up.
+Go to WooCommerce > Settings > Payments and click the switch (1) to enable the KuPay payment method. You should now be on the following page:
+
+```
+/wp-admin/admin.php?page=wc-settings&tab=checkout
+```
+
+Now click **Set up** (2) for the KuPay Payment Gateway. If you have already set it up before, this button will instead say **Manage**.
 
 ![Enable, then Set up](../.gitbook/assets/woo1.png)
 
 ### 5. Enter API Key
 
-Go to WooCommerce > Settings > Payments and click **Set up** (or **Manage** if you did this before).
+Go to WooCommerce > Settings > Payments and click **Set up** (or **Manage** if you did this before). You should now be on the following page:
+
+```
+/wp-admin/admin.php?page=wc-settings&tab=checkout&section=kupay
+```
 
 Now you can enter the API Key that you found in your KuPay Merchant panel.
 
@@ -47,14 +58,8 @@ Now you can enter the API Key that you found in your KuPay Merchant panel.
 
 ## Upgrading
 
-Once the KuPay WooCommerce plugin is on the WordPress repo, upgrading will be a simple click.
+Keep an eye on your WordPress website. If there's a new update, you can upgrade with a simple click.
 
-Until then, please follow these instructions:
+As always, follow the best practices for upgrading, including making backups of files and database, before any upgrades.
 
-1. Download the latest version of the plugin via your KuPay merchant panel
-2. Log in to your WordPress admin panel
-3. Go to the list of plugins
-4. Deactivate-then-delete the KuPay plugin (do not worry, the API key and other details remain)
-5. Add new plugin, upload the latest version
-6. Check new settings and follow instructions if there are any
-7. Check that everything works well, by placing a test order
+Afterwards, ensure that everything works well, by placing a test order and making the payment.

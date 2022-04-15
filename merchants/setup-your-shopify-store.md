@@ -6,11 +6,12 @@
 
 #### Requirements/ limitations:
 
-1. Requires a KuPay merchant account
-2. Only works with **USD** currency at the moment. Please contact us to request another currency.
-3. Only in **English** language
+1. Requires a KuPay merchant account. Apply now at [https://kupay.finance/checkout](https://kupay.finance/checkout)
+2. Currently works with KuCoin Community Chain (**KCC**) and Binance Smart Chain (**BSC**) for our Checkout product, and many more chains for donations and payments.
+3. Only works with **USD** currency at the moment. Please contact us to request another currency.
+4. Only in **English** language
 
-## The basics
+## Step-by-step
 
 1. Create a new Shopify shop (if you haven’t already)
 2. Sign up for a new Merchant account on [https://kupay.finance/checkout](https://kupay.finance/checkout)
