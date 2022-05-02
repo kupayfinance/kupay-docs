@@ -8,8 +8,8 @@
 
 1. Requires a KuPay merchant account. Apply now at [https://kupay.finance/checkout](https://kupay.finance/checkout)
 2. Currently works with KuCoin Community Chain (**KCC**) and Binance Smart Chain (**BSC**) for our Checkout product, and many more chains for donations and payments.
-3. Only works with **USD** currency at the moment. Please contact us to request another currency.
-4. Only in **English** language
+3. The following currencies are currently supported: USD, EUR, JPY, GBP, AUD, CAD, CHF, CNH, HKD, NZD, NGN. Please contact us to request another currency.
+4. Interface is in **English** language
 5. Tested on WordPress 5.9.3 and WooCommerce 6.3.0 and above
 6. Requires PHP 7.0 or above
 
