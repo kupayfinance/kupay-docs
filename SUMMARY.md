@@ -25,3 +25,7 @@
 ## Extras
 
 * [Contact](extras/contact.md)
+
+## Token Teams
+
+* [List your token](token-teams/list-your-token.md)
