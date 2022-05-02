@@ -3,6 +3,8 @@ description: >-
   KuPay allows merchants to receive payments in a number of KCC and BSC tokens.
   KCC is the KuCoin Community Chain. BSC is the Binance Smart Chain. More chains
   coming soon!
+cover: .gitbook/assets/banner-772x250.png
+coverY: 0
 ---
 
 # What is KuPay?

@@ -5,6 +5,7 @@
 ## Guides
 
 * [Making Payments or Donations](guides/making-payments-or-donations.md)
+* [Create a Payment Request](guides/create-a-payment-request.md)
 
 ## Merchants
 
