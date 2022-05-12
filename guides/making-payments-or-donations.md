@@ -20,6 +20,10 @@ During the Metamask setup, you will create a new wallet (or import your existing
 
 This is important, because this wallet is where you will store your tokens. Keep the secret words and private keys safe, because anyone in the world can use your wallet if they have that information. So keep it secret.
 
+{% content-ref url="metamask.md" %}
+[metamask.md](metamask.md)
+{% endcontent-ref %}
+
 ## 2. Get your tokens on Metamask
 
 On some block chains such as Ethereum, you can buy your favorite tokens directly on Metamask. On other chains, such as KCC you can't. If you have tokens on other chains or exchanges (such as Kraken, FTX, Crypto.com and many others), you can bridge or withdraw them to KCC or to BSC. Or you can open an account on [KuCoin](https://www.kucoin.com) (with direct access to KCC) or [Binance](https://www.binance.com) with direct access to BSC.
