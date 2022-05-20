@@ -9,7 +9,7 @@ coverY: 0
 
 # What is KuPay?
 
-Find out more about [KCC](https://www.kcc.io) and [BSC](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain).
+Find out more about [KCC](https://www.kcc.io/) and [BSC](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain).
 
 {% hint style="info" %}
 **Good to know:** KuPay makes it easy to get paid in native KCC or BSC tokens, but we're not handling your money. It goes straight into your own wallet!

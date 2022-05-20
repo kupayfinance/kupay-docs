@@ -37,7 +37,7 @@ Adding a new blockchain in MetaMask is easy. Click on the MetaMask icon. Then cl
 Then click on **Add Network** at the bottom.
 
 {% hint style="info" %}
-Want even easier? You can visit [https://chainlist.org/](https://chainlist.org) and click to add a Network to MetaMask
+Want even easier? You can visit [https://chainlist.org/](https://chainlist.org/) and click to add a Network to MetaMask
 {% endhint %}
 
 ![](<../.gitbook/assets/Screen Shot 2022-05-12 at 11.49.29 (1).png>)
@@ -72,9 +72,9 @@ Chain ID: 56
 
 Currency Symbol: KCS
 
-Block Explorer URL: [https://bscscan.com/](https://bscscan.com)
+Block Explorer URL: [https://bscscan.com/](https://bscscan.com/)
 
 {% hint style="info" %}
-For more chains, and an easy way to add them to MetaMask you can use [https://chainlist.org/](https://chainlist.org)
+For more chains, and an easy way to add them to MetaMask you can use [https://chainlist.org/](https://chainlist.org/)
 {% endhint %}
 

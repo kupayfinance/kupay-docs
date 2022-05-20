@@ -26,7 +26,7 @@ This is important, because this wallet is where you will store your tokens. Keep
 
 ## 2. Get your tokens on Metamask
 
-On some block chains such as Ethereum, you can buy your favorite tokens directly on Metamask. On other chains, such as KCC you can't. If you have tokens on other chains or exchanges (such as Kraken, FTX, Crypto.com and many others), you can bridge or withdraw them to KCC or to BSC. Or you can open an account on [KuCoin](https://www.kucoin.com) (with direct access to KCC) or [Binance](https://www.binance.com) with direct access to BSC.
+On some block chains such as Ethereum, you can buy your favorite tokens directly on Metamask. On other chains, such as KCC you can't. If you have tokens on other chains or exchanges (such as Kraken, FTX, Crypto.com and many others), you can bridge or withdraw them to KCC or to BSC. Or you can open an account on [KuCoin](https://www.kucoin.com/) (with direct access to KCC) or [Binance](https://www.binance.com/) with direct access to BSC.
 
 [Binance instructions connecting Metamask](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain)
 

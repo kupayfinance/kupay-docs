@@ -1,5 +1,5 @@
 ---
-description: Create a donation page
+description: Create a donation page for your charity or personal use
 ---
 
 # Donations

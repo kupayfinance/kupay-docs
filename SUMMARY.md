@@ -12,7 +12,7 @@
 
 * [Setup WooCommerce](merchants/setup-woocommerce.md)
 * [Setup your Shopify store](merchants/setup-your-shopify-store.md)
-* [Merchant panel](merchants/merchant-panel.md)
+* [Management panel](merchants/management-panel.md)
 
 ## Fundamentals
 
@@ -22,10 +22,12 @@
 
 * [Merchants](use-cases/for-merchants.md)
 * [Donations](use-cases/donations.md)
+* [Decentralized Bank Account](use-cases/decentralized-bank-account.md)
 
 ## Extras
 
 * [Contact](extras/contact.md)
+* [Branding](extras/branding.md)
 
 ## Token Teams
 
