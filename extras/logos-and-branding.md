@@ -2,7 +2,7 @@
 description: We would love to know if you intend to use our logos on your pages or videos
 ---
 
-# Branding
+# Logos & Branding
 
 {% embed url="https://github.com/kupayfinance/kupay-brand-assets" %}
 Our logo can be found on Github
