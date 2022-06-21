@@ -32,7 +32,7 @@ Please check the admin panel for your API token. Sign up via [https://kupay.fina
 
 {% swagger method="post" path="/payment/create" baseUrl="https://api.kupay.finance/v1" summary="payment/create" %}
 {% swagger-description %}
-
+To create a payment request, use the authorization headers described above. Also send a json body as described below. You will receive a payment_id, which you can use to track the status of the payment. The API will also send a webhook for all payment status updates to the URL you have given to it.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" required="true" name="id" type="String" %}
@@ -118,16 +118,14 @@ Where KuPay API will send updates about the payment status
 
 ### Get payment status
 
-{% swagger method="get" path="/payment/status/<payment-id>" baseUrl="https://api.kupay.finance/v1" summary="" %}
+{% swagger method="get" path="/payment/status/<payment-id>" baseUrl="https://api.kupay.finance/v1" summary="payment/status" %}
 {% swagger-description %}
-Use the same 
+Use the same `payment_id` that you received from the Create Payment request.
 
-`payment_id`
-
- that you received from the Create Payment call.
+To get the payment status, use the authorization headers described above. Note that the API already sends a webhook to your application for all payment status updates to the URL you have given to it when you created the payment request via **payment/create**.
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="id" type="String" required="true" %}
+{% swagger-parameter in="path" name="payment-id" type="String" required="true" %}
 Payment ID
 {% endswagger-parameter %}
 
