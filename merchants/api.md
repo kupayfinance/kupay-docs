@@ -24,7 +24,7 @@ Add the following header to **each** request to the api
 Authorization: Bearer <token>
 ```
 
-Please check the admin panel for your API token. Sign up via https://kupay.finance
+Please check the admin panel for your API token. Sign up via [https://kupay.finance](https://kupay.finance)
 
 
 
@@ -48,7 +48,7 @@ Date of the order
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" type="String" name="currency" required="true" %}
-Order currency, eg. USD or EUR etc. see below
+Order currency, USD|EUR|JPY|GBP|AUD|CAD|CHF|CNY|HKD|NZD|SEK|KRW|SGD|NOK|MXN|INR|BRL|NGN
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" type="Float" name="amount" required="true" %}
@@ -56,7 +56,7 @@ Amount to pay, eg. 123.45
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" type="String" name="email" %}
-Shoppers email
+Shoppers email, where we will send the kupay payment link
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" type="String" name="order_status_url" %}
@@ -72,47 +72,30 @@ Where KuPay will redirect the customer when they have finished paying on the pay
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="callback_url" type="String" required="true" %}
-Where KuPay API will send any updates to the payment status
+Where KuPay API will send updates about the payment status
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Created successfully" %}
 ```javascript
 {
     "pay_url": "https://pay.kupay.finance/merchant/payment-id",
-    "payment_id": "payment-id"
+    "payment_id": "1dabeb8c-d9e7-11ec-a7b6-fd796692aca4"
 }
 ```
 {% endswagger-response %}
 
-{% swagger-response status="401: Unauthorized" description="" %}
+{% swagger-response status="401: Unauthorized" description="Issue with credentials" %}
 ```javascript
-{
-    // Response
-}
+[]
 ```
 {% endswagger-response %}
 
-{% swagger-response status="500: Internal Server Error" description="" %}
+{% swagger-response status="500: Internal Server Error" description="An error occurred" %}
 ```javascript
-{
-    // Response
-}
+[]
 ```
 {% endswagger-response %}
 {% endswagger %}
-
-```
-id* = (string) your own unique internal order id
-order_number* = (string) the order number that the customer knows about
-created_at* = (string) date of the order 2021-12-23T18:58:04+01:00
-currency* = (string) USD|EUR|JPY|GBP|AUD|CAD|CHF|CNY|HKD|NZD|SEK|KRW|SGD|NOK|MXN|INR|BRL|NGN
-amount* = (float) total amount to pay
-email = (string) shoppers email, where we will send the kupay payment link
-order_status_url = (string) https url to the customers order status page
-cancel_url* = (string) https url to redirect user to when they cancel payment
-paid_url* = (string) https url to redirect user to when they finish payment
-callback_url* = (string) https url where KuPay will send payment status updates
-```
 
 #### Json payload example
 
@@ -123,11 +106,11 @@ callback_url* = (string) https url where KuPay will send payment status updates
 	"created_at": "2022-05-22T18:58:04+01:00",
 	"currency": "USD",
 	"amount": 123.45,
-	"email": "",
-	"order_status_url": "https://example.com",
-	"cancel_url": "https://example.com",
-	"paid_url": "https://example.com",
-	"callback_url": "https://example.com"
+	"email": "anderson@example.com",
+	"order_status_url": "https://example.com/order/1234",
+	"cancel_url": "https://example.com/canceled.html",
+	"paid_url": "https://example.com/paid.html",
+	"callback_url": "https://example.com/payment/status/updates"
 }
 ```
 
@@ -148,31 +131,32 @@ Use the same
 Payment ID
 {% endswagger-parameter %}
 
-{% swagger-response status="200: OK" description="" %}
+{% swagger-response status="200: OK" description="Order was found" %}
 ```javascript
 {
-    order object
+    "payment_id": "1dabeb8c-d9e7-11ec-a7b6-fd796692aca4",
+    "status": "paid",
+    "created_at": "2022-05-22 17:58:04",
+    "order_number": "1234",
+    "currency": "USD",
+    "amount": "123.45"
 }
 ```
 {% endswagger-response %}
 
-{% swagger-response status="401: Unauthorized" description="" %}
+{% swagger-response status="401: Unauthorized" description="Issue with credentials" %}
 ```javascript
-{
-    // Response
-}
+[]
 ```
 {% endswagger-response %}
 
-{% swagger-response status="404: Not Found" description="" %}
+{% swagger-response status="404: Not Found" description="Order not found" %}
 ```javascript
-{
-    // Response
-}
+[]
 ```
 {% endswagger-response %}
 
-{% swagger-response status="500: Internal Server Error" description="" %}
+{% swagger-response status="500: Internal Server Error" description="An error occurred" %}
 ```javascript
 {
     // Response
