@@ -137,7 +137,7 @@ Payment ID
     "created_at": "2022-05-22 17:58:04",
     "order_number": "1234",
     "currency": "USD",
-    "amount": "123.45"
+    "amount": 123.45
 }
 ```
 {% endswagger-response %}
