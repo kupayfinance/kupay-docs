@@ -14,6 +14,7 @@
 * [Setup your Shopify store](merchants/setup-your-shopify-store.md)
 * [Management panel](merchants/merchant-panel.md)
 * [API](merchants/api.md)
+* [Payment buttons](merchants/payment-buttons.md)
 
 ## Fundamentals
 
