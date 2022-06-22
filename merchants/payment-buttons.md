@@ -24,8 +24,8 @@ description: >-
 <a href="#" class="btn btn-primary">buy now</a>
 ```
 
-| Variable  |                                                                                                                                                                         |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| chain\_id | The network identifier, for example 1 for ethereum, or 321 for KuCoin Community Chain, 56 for BNB Smart Chain etc. This is the chain you want to be selected by default |
-| amount    | The amount to pay in the specified currency, eg. 123.45                                                                                                                 |
-| currency  | 3-letter iso currency, eg. EUR or USD (check the woocommerce page for the list of supported currencies and request if you need us to support your currency)             |
+| URL parameter | Description                                                                                                                                                                       | Example         |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| chain\_id     | The network identifier, for example 1 for Ethereum, or 321 for KuCoin Community Chain, 56 for BNB Smart Chain etc. This is the chain you want to be selected by default           | ?chain\_id=321  |
+| amount        | The amount to pay in the specified currency                                                                                                                                       | \&amount=123.45 |
+| currency      | 3-letter iso currency, eg. EUR or USD (check the woocommerce page for the list of supported currencies and request if you need us to support your currency). Use capital letters. | \&currency=JPY  |
