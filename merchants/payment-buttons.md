@@ -14,7 +14,7 @@ description: >-
 ## Step by step
 
 1. Create an account on [account.kupay.finance](https://account.kupay.finance) so you can get a unique account slug. Be sure to fill this out in the pop-up right after you signed up.
-2. Your decentralized bank account can look like https://account.kupay.finance/-john-doe
+2. Your decentralized bank account looks something like this https://account.kupay.finance/-john-doe (replace -john-doe with your selected username)
 3. For each product you craft a link that has the correct **chain\_id**, **amount** and **currency**, for example\
    https://account.kupay.finance/-john-doe?chain\_id=321\&amount=100\&currency=EUR
 4. Now you can create buttons for each link on your website. If you are familiar with [Bootstrap](https://getbootstrap.com/docs/5.1/components/buttons/), you can use classes to make your links look like buttons.
